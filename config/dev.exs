@@ -5,7 +5,7 @@ config :project_management, ProjectManagement.Repo,
   username: "postgres",
   password: "postgres",
   database: "project_management_dev",
-  hostname: "localhost",
+  hostname: "192.168.99.100",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
